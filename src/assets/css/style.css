@@ -34,6 +34,9 @@ img{
     width: 28px;
     margin-right: 30px;
 }
+.products_warper{
+    position: relative;
+}
 .products_content{
     background: #FFFFFF;
     box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.1);
@@ -109,6 +112,39 @@ img{
 .ratings_wrapper{
     padding-bottom: 25px;
 }
+.time{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 14px 8px 14px;
+    background: #FFFFFF;
+    box-shadow: -4px 5px 6px rgba(0, 0, 0, 0.48);
+    border-radius: 0px 10px;
+
+}
+.time span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #134E47;
+}
+
+.time p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #134E47;
+    margin: 0px;
+}
+
+
+
+
+
 /*--------------------------------------------------------------
 # product css end
 --------------------------------------------------------------*/

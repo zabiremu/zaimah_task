@@ -10,12 +10,15 @@ const Products = () => {
       <div id="products">
         <div className="container">
           <div className="row">
+            {/*header start */}
             <div className="header d-flex align-items-center">
               <div className="header_icon">
                 <img src={icon} alt="" />
               </div>
               <h2 className="header_title">Your Favorite Paramedics</h2>
             </div>
+            {/*header end */}
+            {/* card start */}
             <div className="col-md-3">
               <div className="products_warper">
                 <div className="products_content">
@@ -49,9 +52,13 @@ const Products = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="time">
+                    <span>15</span><p>MIN</p>
+                  </div>
                 </div>
               </div>
             </div>
+            {/*card end */}
           </div>
         </div>
       </div>
