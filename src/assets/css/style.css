@@ -140,11 +140,84 @@ img{
     color: #134E47;
     margin: 0px;
 }
-
-
-
-
-
 /*--------------------------------------------------------------
 # product css end
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# filter css start
+--------------------------------------------------------------*/
+.button{
+    padding: 24px 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.filter_icon{
+    width:22px;
+    height: 24px;
+    margin-right: 24px;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 28px;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    color: #134E47;
+}
+.filter_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #134E47;
+}
+.dropdown-item {
+    padding: 8px 80px;
+    color: #134E47 !important;
+}
+.search{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 17px 48px;
+}
+.input-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: none!important;
+}
+.form-control::placeholder{
+    color: #134E47;
+}
+.search_icon{
+    width: 18px;
+    height: 18px;
+    color: #134E47;
+}
+.input-control::focus{
+    border: none!important;
+    border-color: transparent!important;
+}
+/*--------------------------------------------------------------
+# filter css end
 --------------------------------------------------------------*/
